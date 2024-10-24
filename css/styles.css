@@ -7,6 +7,18 @@ body {
   display: flex;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: yellow;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
 a {
   justify-content: center;
 }

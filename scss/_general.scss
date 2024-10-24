@@ -8,6 +8,19 @@ body {
     display: flex;
 }
 
+.navbar-toggler {
+    border: none; 
+}
+
+.navbar-toggler-icon {
+    background-color: $coloralternativo; 
+}
+
+.navbar-toggler:focus {
+    outline: none; 
+}
+
+
 a {
     justify-content: center;
 }
