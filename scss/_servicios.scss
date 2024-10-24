@@ -1,0 +1,29 @@
+.titulo-servicios {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.multimedia-servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.imagen-servicios {
+    width: 100%;
+    height: auto;
+}
+  
+.video-servicios {
+    width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px;
+}

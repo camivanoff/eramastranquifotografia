@@ -1,115 +1,113 @@
-
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .navbar-nav .nav-link {
-    color: white;
-    display: flex;
+  color: white;
+  display: flex;
 }
 
 a {
-    justify-content: center;
+  justify-content: center;
 }
 
 .navbar-nav .nav-link:hover {
-    color: yellow;
-    font-size: 1.5rem;
-    transition: 1s, 1s;
+  color: yellow;
+  font-size: 1.5rem;
+  transition: 1s, 1s;
 }
 
 h1 {
-    color: yellow;
+  color: yellow;
 }
 
 h2 {
-    color: white;
-}
-
-.titulo-servicios {
-    color: white;
-    text-align: center;
-}
-
-.partePrincipal {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
+  color: white;
 }
 
 p {
-    color: white;
-}
-
-.parrafo {
-    margin: 20px;
-}
-
-.parrafoDos {
-    margin: 20px;
-    padding: 20px;
-}
-
-.parrafoContacto {
-    margin-top: 40px;
+  color: white;
 }
 
 .custom-button {
-    background-color: white;
-}
-
-.imagenNosotros {
-    margin: 10px 0;
-    max-width: 90%;
-    height: auto;
+  background-color: white;
 }
 
 .pieDePagina {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.itemFormulario {
-    color: white;
+.partePrincipal {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.parrafo {
+  margin: 20px;
+}
+
+.parrafoDos {
+  margin: 20px;
+  padding: 20px;
+}
+
+.imagenNosotros {
+  margin: 10px 0;
+  max-width: 90%;
+  height: auto;
+}
+
+.titulo-servicios {
+  color: white;
+  justify-content: center;
+  text-align: center;
 }
 
 .multimedia-servicios {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .imagen-servicios {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-  
+
 .video-servicios {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .grid-container {
-    color: white;
-    width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 60px;
+  color: white;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
 }
 
 .titulo-galeria {
-    color: white;
+  color: white;
 }
 
 #carouselExample {
-    max-width: 800px;
-    width: 100%;
+  max-width: 800px;
+  width: 100%;
 }
 
 .foto-galeria {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px, 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px, 0;
 }
+
+.itemFormulario {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
